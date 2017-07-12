@@ -1,0 +1,13 @@
+/*CSS*/
+*{margin:0;padding:0;box-sizing:border-box}
+img{max-width: 100%;height:auto}
+
+/*** Header start***/
+header{width:100%;height:50px;background:#454545;text-align:center;display:flex;justify-content:center;align-items:center;color:#fff;font-size:24px}
+
+/*** Main container start***/    
+.container{width:90%;margin:30px auto;border:1px solid #ddd;padding:20px;max-width:600px;position:relative}
+
+/*** css3 arrow***/  
+.arrow_box{position:relative;background:#408fd5;width:200px;height:120px;border-radius:15px;margin:0 auto;display:flex;align-items:center;    justify-content:center;color:#fff;font-size:16px}
+.arrow_box:after{right:100%;top:50%;border:solid transparent;content:" ";height:0;width:0;position:absolute;pointer-events:none;border-color: rgba(64, 143, 213, 0);border-right-color:#408fd5;border-width:30px;margin-top:-30px}
